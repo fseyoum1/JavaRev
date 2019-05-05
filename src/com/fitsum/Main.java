@@ -27,7 +27,13 @@ public class Main {
         // passing the variable name and dividing it is an error this is because java consider
         // this as an expression not literal, so when java computes the value it defaults it to an integer
         // that is why it is not working the way to go around is to type cast it to byte
-        myByte = (byte) ((myByte)/3); 
+        myByte = (byte) ((myByte)/3);
+
+
+        double pi = 3_000_000.234d;// you can use underscore to make it readable
+        System.out.println(pi);
+
+
 
 
     }
